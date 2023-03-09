@@ -1,1 +1,1 @@
-# Markdown to Discord friendly markup
+# Markdown to Discord-friendly markup
