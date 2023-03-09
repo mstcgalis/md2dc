@@ -32,4 +32,4 @@ Go to [md2dc.danielgalis.com](https://md2dc.danielgalis.com) and follow the inst
 Feel free to contribute if something about this tool pisses you off (or you care enogh). The **Roadmap** contains some ideas, but do whatever. I'm not your boss. Just make sure to open a pull request.
 
 ---
-with ❤️ and 🌱 by [Daniel Galis](https://danielgalis.com)
+with ❤️ and 🌱 by [Daniel Gális](https://danielgalis.com)
