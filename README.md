@@ -21,6 +21,7 @@ A numbered list of all links will be added to the bottom of your text:
 Go to [md2dc.danielgalis.com](https://md2dc.danielgalis.com) and follow the instructions.
 
 ## Roadmap
+- [ ] use DOMPurify to sanitize input
 - [ ] Convert Discord links to Markdown links (reverse)
 - [ ] Make it look pretty (add CSS)
 - [ ] Mobile support
