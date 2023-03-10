@@ -1,7 +1,7 @@
 # [md2dc](https://md2dc.danielgalis.com) - Markdown to Discord
 
 ## Scenario
-You're writing a report on a your new project in your preffered Markdown editor, using Markdown style (`[text](link)`) links all over the place. "My squad needs to see this!" you exclaim excitedly. "I'll just copy and paste it into Discord!" you say, and you do. But the links show up as massive blocks of blue text, making the text borderline unreadable.
+You're writing a report on a your new project in your preffered Markdown editor, using Markdown style (`[text](link)`) links all over the place. "My squad needs to see this!" you exclaim, "I'll just copy and paste it into Discord!" But the links show up as massive cascades of blue text, making the text borderline unreadable.
 
 ## Solution
 [md2dc](https://md2dc.danielgalis.com) will convert all Markdown style links to a Discord-friendly link notation:
