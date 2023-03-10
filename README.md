@@ -10,7 +10,6 @@ You're writing a report on a your new project in your preffered Markdown editor,
 - `text` is the text of the link
 - `N` is the number of the link in the document
 
-
 A numbered list of all links will be added to the bottom of your text:
 ```
  `link#1`: https://example.com
