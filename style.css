@@ -1,0 +1,7 @@
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+/* Set default font family to Inter */
+body {
+  font-family: 'Inter', sans-serif;
+}
