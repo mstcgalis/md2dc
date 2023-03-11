@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>md2dc</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <title>md2dc</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>Markdown to Discord</h1>
-    <ol>
-        <li>Enter Markdown text with links into the <b>Markdown</b> field</li>
-        <li>Click <b>Convert</b>.</li>
-        <li><b>Copy output</b> text with Discord-friendly links from the <b>Discord</b> field</li>
-    </ol>
-    <form id="form">
-        <div>
-            <b>Markdown:</b>
-        </div>
-        <textarea id="input" name="input" rows="18" cols="100"></textarea>
-        <br/>
-        <button type="submit">Convert</button>
-    </form>
-    <br/>
+  <h1>Markdown to Discord</h1>
+  <ol>
+    <li>Enter Markdown text with links into the <b>Markdown</b> field</li>
+    <li>Click <b>Convert</b>.</li>
+    <li><b>Copy output</b> text with Discord-friendly links from the <b>Discord</b> field</li>
+  </ol>
+  <form id="form">
     <div>
-        <div>
-            <b>Discord:</b>
-        </div>
-        <textarea id="output" name="output" rows="18" cols="100"></textarea>
-        <br/>
-        <button onclick="copyOutput()">Copy output</button> <span id="copy-status"></span>
+      <b>Markdown:</b>
     </div>
-    <hr>
-    <p>with 💙 and 🌱 by <a href="https://danielgalis.com">Daniel Gális</a>
+    <textarea id="input" name="input" rows="18" cols="100"></textarea>
+    <br/>
+    <button type="submit">Convert</button>
+  </form>
+  <br/>
+  <div>
+    <div>
+      <b>Discord:</b>
+    </div>
+    <textarea id="output" name="output" rows="18" cols="100"></textarea>
+    <br/>
+    <button onclick="copyOutput()">Copy output</button> <span id="copy-status"></span>
+  </div>
+  <br/>
+  <hr>
+  <p>with 💙 and 🌱 by <a href="https://danielgalis.com">Daniel Gális</a>
 </body>
 
 <!-- <script type="text/javascript" src="dist/purify.min.js"></script> -->
