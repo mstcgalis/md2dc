@@ -22,6 +22,7 @@ Go to [md2dc.danielgalis.com](https://md2dc.danielgalis.com) and follow the inst
 
 ## Roadmap
 - [ ] use DOMPurify to sanitize input
+- [ ] add `Clear` button (clear both textareas)
 - [ ] Convert Discord links to Markdown links (reverse)
 - [ ] Make it look pretty (add CSS)
 - [ ] Mobile support
