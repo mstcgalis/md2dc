@@ -28,11 +28,11 @@ function convertMd2Dc(mdString) {
 
   const textWithLinks = mdString.replaceAll(re, createLink);
 
-  for (let i = 0; i < num; i + 1) {
+  for (let i = 0; i < num; i += 1) {
     if (i === 0) {
       linkList += '\n\n';
     }
-    linkList += `\`link#${i + 1}\`: ${links[i]} \n`;
+    linkList += `#link#${i + 1}: ${links[i]} \n`;
   };
 
   const dcString = textWithLinks + linkList;
