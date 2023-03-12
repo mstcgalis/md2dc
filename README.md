@@ -6,7 +6,7 @@ You're writing a report on a your new project in your preffered Markdown editor,
 ## Solution
 [md2dc](https://md2dc.danielgalis.com) will convert all Markdown style links to a Discord-friendly link notation:
 
-```[text](link) -> **text** (#link#Nx)```
+```[text](link) -> **text** (#link#N)```
 - `text` is the text of the link
 - `N` is the number of the link in the document
 
