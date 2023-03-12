@@ -32,13 +32,13 @@ function convertMd2Dc(mdString) {
     if (i === 0) {
       linkList += '\n\n';
     }
-    linkList += `\`link#${i + 1}\`: ${links[i]}\n`;
-  }
+    linkList += `\`link#${i + 1}\`: ${links[i]} \n`;
+  };
 
   const dcString = textWithLinks + linkList;
 
   return dcString;
-}
+};
 
 /**
  * Copies the output to the clipboard
