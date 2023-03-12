@@ -20,7 +20,7 @@ function convertMd2Dc(mdString) {
   function createLink(m, label, link) {
     num += 1;
     links.push(link);
-    const dcLink = `**${label}**(\`link#${num}\`)`;
+    const dcLink = `**${label}**(#link#${num})`;
     return dcLink;
   };
 
