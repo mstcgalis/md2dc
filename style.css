@@ -3,7 +3,7 @@
 
 /* Set default font family to Inter */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
