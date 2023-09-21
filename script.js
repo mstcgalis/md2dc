@@ -4,7 +4,7 @@ const input = document.querySelector('#input');
 const output = document.querySelector('#output');
 const copyStatus = document.querySelector('#copy-status');
 
-const re = /\[(.+)\]\((http.+)\)/gm;
+const re = /\[(.+?)\]\((http.+?)\)/gm;
 
 /**
  * Converts markdown links to DC links
